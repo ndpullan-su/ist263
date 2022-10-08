@@ -1,8 +1,9 @@
 body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-h1 h2{color: purple;}
+h1, h2 {color: purple;}
+h1 {text-shadow: 2px 2px #0e0e0e;}
 
-table.evenrow{background-color:purple;}
+.evenrow{background-color:purple;}
 
 h1 {font-size: 4em;}
 h2{font-size: 2em;}
