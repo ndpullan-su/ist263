@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .part1 {padding: 30px;background-color:#fcdd95;border-radius: 1em;margin: 30px;}
+        .part2{padding: 50px;display: flex;background-color: #fcdd95;border-radius: 1em;margin-top: 50px;margin-left: 30px; margin: 30px;}
+        .form{display: flex;margin-right: 90px;}
+
+        @media only screen and (max-width: 600px)
+            {nav a{display: block;}
+            span{display: none;}
+                }
+            @media only screen and (min-width:600px)
+            {
+                nav a{display: inline;}
+                span{display: inline;}
+            }
+    </style>
+</head>
+
+<body>
+        <nav>
+            <a href="index.html">Home</a><span> | </span>
+            <a href="contactcopy.html">Contact</a><span> | </span>
+            <a href="skills.html"> 
+        </nav>
+
+<h1>Contact</h1>
+<div class="part1">
+     <section>
+        Nicole Pullano <br>
+        283 Trumbull Road, Manhasset NY<br>
+    </section>
+
+    <section>
+        <a href="mailto:ndpullan@syr.edu"> Nicole Pullano Email<br></a>
+        <a href="https://www.linkedin.com/in/nicole-pullano-84b546220/" target="_blank"> My LinkedIn Profile <img src="../images/LinkedinLogo-sized.png" alt="linkedinlogo"></a>
+    </section>
+</div>
+
+<div class="part2">
+    <section class="form">
+    <form method="post" action="https://formspree.io/f/mzbwrzyz">
+        <label for="fullname">Name:</label>
+        <input type="text" id="fullname" name="fullname"><br>
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="Message"></textarea><br>
+        <label for="student">Are You A Student or Professional?</label>
+        <select id="student" name="student">
+            <option value="student">student</option>
+            <option value="professional">professional</option>
+            <option value="neither">neither</option>
+        </select><br>
+        <input type="submit" value="send my form"></form>
+    </section>
+
+<div>
+    <section class="map">
+    <p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d729.0121837083159!2d-76.13650286720546!3d43.04040609865324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f728adeaf%3A0x761420a170b95c41!2sS.I.%20Newhouse%20School%20Of%20Public%20Communications!5e0!3m2!1sen!2sus!4v1663251789928!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+    </section>
+</div>
+</div>
+
+
+</body>
+
+</html>

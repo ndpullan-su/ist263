@@ -3,18 +3,29 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nicole Pullano - Bio</title>
         <link rel="stylesheet" href="style.css">
         <style>
            .quote {float: right;} 
+           @media only screen and (max-width: 600px)
+            {.nav {display: block;}
+            .span{display: none;}
+                }
+            @media only screen and (min-width:600px)
+            { .nav {display: inline;} .span{display: inline;}
+            }
+            body{background-color: #8dbafc;}
+            body{color: #fff;}
+            body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
         </style>
     </head>
     
     <body>
-        <nav>
-            <a href="contactcopy4.html">Contact |</a>
-
-            <a href="skills3.html"> Skills</a>
+        <nav class="nav">
+            <a href="index.html">Home</a><span> | </span>
+            <a href="contactcopy.html">Contact</a><span> | </span>
+            <a href="skills.html"> Skills</a> 
         </nav>
         <header><img src="../images/ist263lab05.jpeg" alt="banner with logo and name"></header> <br>
         <main>
