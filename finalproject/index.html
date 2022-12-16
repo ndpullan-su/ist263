@@ -4,24 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <style>
-        body{background-color: #FCC080      ;
-            color: #000 ;
-            font-family: Georgia, 'Times New Roman', Times, serif;}
+        body{background-color: #f7e5be ;
+            color: #191e6b;
+            font-size: 120%;}
         
+        h1{color: #191e6b;
+            filter: drop-shadow(5px 4px 1px #fff);
+        font-size: 350%;
+        font-family:"Sofia", sans-serif; }
 
-        .bigflex{display: flex;
-            flex-wrap:wrap;}
+            h2 {color:  #191e6b ;
+    font-size: 100% ;
+    text-align: center;
+    font-family:"Lucida Console", "Courier New", monospace; }
 
-        .flex1 {flex: 5;
-         padding: 20px;
-        margin: 20px;}
+    nav{color: #fff;
+                font-size: 110%;
+                font-family:"Lucida Console", "Courier New", monospace;
+                text-align: space-evenly;
+                 background-color: #191e6b ;
+                padding:20px;
+                margin: auto;
+                border-radius: 30px;}
+            
+            
 
-        .flex2 {flex: 5;
-        padding: 20px;
-          margin: 20px;}
 
-        .title, .blurb, .click, .food, .people {text-align: center;}
+    a:link {color: #f7e5be;}
+    a:visited {color: #fff;}
+
+   
+
+    .blurb{
+        display: flex; 
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center; 
+        line-height: 150%;
+        background-color: #fff;
+        max-width: 100%;
+        padding:20px;
+        margin: 28px;
+        border-radius: 30px}
+    
+        .timeline {display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        max-width: 100%;
+        padding:20px;
+        border-radius: 30px}
+
+       .body{display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        padding-right: 30px;
+        flex-wrap: wrap}
+
+        .container {
+            font-family:"Lucida Console", "Courier New", monospace;
+            display: flex;
+            justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;}
+
+            .info {display: flex;
+                justify-content: center;
+                align-items: center}
+
+            .left {flex: 5;
+                padding:20px;
+                margin: 20px;
+                color: #FFF;
+            background-color: #191e6b;
+                justify-content: center;
+                align-items: center;
+                border-radius: 30px}
+
+            .right {flex: 5;
+                padding:20px;
+                margin: 20px;
+            color: #FFF;
+            background-color: #191e6b;
+            justify-content: center;
+                align-items: center;
+                border-radius: 30px}
+       .leftpic {display: flex; justify-content: center;}
+       .rightpic {display: flex; justify-content: center;}
+            
+        
+        .title, .blurb, .nav {text-align: center;}
         
         
     </style>
@@ -29,48 +102,55 @@
     <link rel="shortcut icon" type="image/x-icon" href="../project/media/FAVICON.png">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home |</a>
-        <a href="foodandculture.html">Food & Culture |</a>
-        <a href="peopleandplaces.html">People & Places</a> 
+    <nav class="nav">
+        <a href= "index.html">Home</a> <span>|</span>
+        <a href= "foodandculture.html"> Food & Culture </a> <span>|</span>
+        <a href= "peopleandplaces.html"> People & Places </a>
     </nav>
     <div class="title">
-    <header></header><h1>A Summer In Europe</h1></header>
+    <header></header><h1>A Summer In Europe<br>
+        &#128745;
+        &#127758;
+        &#127747;</h1></header>
     </div>
 
     <main>
-    <div class="blurb">
+        <div class="timeline">
+            <img src="../finalproject/timeline.png" alt="timelineoftrip" class="timeline">
+           </div>
+<div class="blurb">
+  <h2>
+    <br>
     My name is Nicole Pullano. I am currently a junior at the S.I Newhouse school of Public Communications studying Advertising and pursuing a minor in Information Management & Technology in the School of Information Sciences.This past summer, I got the opportunity to study abroad for six weeks in Florence and London, and then traveled to Paris & the French Riviera with my family.  This website was created as part of my web development class to showcase my wonderful experiences and memories while traveling through Europe. In the Food & Culture section, I go into a deep dive about my favorite restuarants and meals I had in each location. From homemade pizzas, to truffle pasta and meals withthe freshest ingredients, food was an obvious highlight in Europe. In People & Places, I explain my experience immersing myself in new cultures, comparing each place to home and other locations. From bustling London markets to relaxing Cannes beaches and a winery tour in Italy, my cultural experience abroad was all over the spectrum, and I wouldn't have it any other way!
-    </div> 
+</h2>
+</div>
      <br>
-
-<div class="click">
-     <h2>Click the text below to read more about food & culture and people & places abroad!</h2>
-    </div>
-
-<div class="bigflex">
-
-<div class="flex1">
-    <div>
-    <img src="../finalproject/homepagefood2.jpg" alt="homepagefood" class="image1">
-    <div class="food">
-        <a href="https://ndpullan-su.github.io/ist263/finalproject/foodandculture.html"><div class="food">Food & Culture</div></a> 
-    </div>
-    </div>
-</div>
-
-<div class="flex2">
-    <div>
-    <img src="../finalproject/londonrainbow2.jpg" alt="homepagepeople" class="image2">
-    <div class="ppl">
-        <a href="https://ndpullan-su.github.io/ist263/finalproject/peopleandplaces.html"><div class="people">People & Places</div></a>
+     
     
+
+
+<div class="container">
+
+    <div class="left">
+        <div class="info"> Click on the image below to read <br>more about my experience with <br> food & culture abroad &#127837;
+        </div> <br>
+    <div class="leftpic">
+        <a href="https://ndpullan-su.github.io/ist263/finalproject/foodandculture.html"><img src="../finalproject/homepagefood2.jpg"></a>
     </div>
     </div>
+
+    <div class="right">
+        <div class="info">Click on the image below to read<br>more about my experiences with <br>people & places in Europe &#128661;</div> <br>
+        <div class="rightpic">
+            <a href="https://ndpullan-su.github.io/ist263/finalproject/peopleandplaces.html"><img src="../finalproject/londonrainbow2.jpg"></a>
+          
+        </div>
+    </div>
 </div>
-</div>
+
 </main>
- 
+ <hr>
+ <center>Thank you for reading about my summer abroad! Those two months were completely eye-opening <br> unforgettable, as I have made memories that I will cherish for the rest of my life. I hope you<br> enjoy reading about it as much as I did writing about it all!<br> xoxo,  Nicole Pullano</center>
 
 </body>
 </html>
